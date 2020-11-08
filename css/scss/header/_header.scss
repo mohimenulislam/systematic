@@ -1,0 +1,67 @@
+.header_area {
+    .top_header_area {
+        background-color:#ba2e1f;
+        .inner_top_header {
+            padding: 15px 0;
+            overflow: hidden;
+            .top_header_navigation {
+                width: 70%;
+                float: left;
+                ul {
+                    text-align: left;
+                    li {
+                        display: inline-block;
+                        // position: relative;
+                        &::after {
+                            content: "|";
+                            // position: absolute;
+                            color: #ffffff;
+                            height: 12px;
+                            padding-left: 8px;
+                            padding-right: 6px;
+
+                        }
+                        &:last-child::after {
+                            display: none;
+                        }
+                        a { 
+                            color: #ffffff;
+                            font-size: 14px;
+                            text-transform: capitalize;
+                            &:hover {
+                                color: #ddd;
+                            }
+                        }
+                    }
+                }
+            }
+            .search_area {
+                width: 30%;
+                float: right;
+                form {
+                    background-color: #fff;
+                    float: right; 
+                    max-width: 210px;
+                    width: 96%;
+                    padding: 2%;
+                    border-radius: 25px;
+                    input {
+                        border: 0px solid;
+                        width: 75%;
+                        padding: 1%;
+                        float: left;
+                        color: #000;
+                    }
+                    input[type="submit"] {
+                        background-image: url(../img/search.png);
+                        background-repeat: no-repeat;
+                        border: 0px solid;
+                        width: 23%;
+                        background-position: right;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

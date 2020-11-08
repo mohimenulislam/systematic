@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5em; }
+
+.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.header_area .top_header_area {
+  background-color: #ba2e1f; }
+  .header_area .top_header_area .inner_top_header {
+    padding: 15px 0;
+    overflow: hidden; }
+    .header_area .top_header_area .inner_top_header .top_header_navigation {
+      width: 70%;
+      float: left; }
+      .header_area .top_header_area .inner_top_header .top_header_navigation ul {
+        text-align: left; }
+        .header_area .top_header_area .inner_top_header .top_header_navigation ul li {
+          display: inline-block; }
+          .header_area .top_header_area .inner_top_header .top_header_navigation ul li::after {
+            content: "|";
+            color: #ffffff;
+            height: 12px;
+            padding-left: 8px;
+            padding-right: 6px; }
+          .header_area .top_header_area .inner_top_header .top_header_navigation ul li:last-child::after {
+            display: none; }
+          .header_area .top_header_area .inner_top_header .top_header_navigation ul li a {
+            color: #ffffff;
+            font-size: 14px;
+            text-transform: capitalize; }
+            .header_area .top_header_area .inner_top_header .top_header_navigation ul li a:hover {
+              color: #ddd; }
+    .header_area .top_header_area .inner_top_header .search_area {
+      width: 30%;
+      float: right; }
+      .header_area .top_header_area .inner_top_header .search_area form {
+        background-color: #fff;
+        float: right;
+        max-width: 210px;
+        width: 96%;
+        padding: 2%;
+        border-radius: 25px; }
+        .header_area .top_header_area .inner_top_header .search_area form input {
+          border: 0px solid;
+          width: 75%;
+          padding: 1%;
+          float: left;
+          color: #000; }
+        .header_area .top_header_area .inner_top_header .search_area form input[type="submit"] {
+          background-image: url(../img/search.png);
+          background-repeat: no-repeat;
+          border: 0px solid;
+          width: 23%;
+          background-position: right;
+          background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
