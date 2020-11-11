@@ -1,0 +1,76 @@
+.portfolio_area {
+    background-color: #f2f2f2;
+    padding: 45px 0;
+    .inner_portfolio_area {
+        color: black;
+        overflow: hidden;
+        .common_portfolio_area{
+
+            width: 32.33%;
+            float: left;
+            margin: 0 0.5% 10px;
+            h2 {
+                font-size: 26px;
+                color: #333333;
+                margin-bottom: 50px;
+                text-transform: capitalize;
+                font-weight: normal;
+            }
+            P {
+                color: #878787;
+            }
+            a {
+                color: #b92d1f;
+                float: right;
+                font-size: 14px;
+            }
+        }
+        .about_area {
+            margin-left: 0;
+            img {
+                border: 1px solid #dfdfdf;
+                padding: 5px;
+                margin-bottom: 20px;
+            }
+        }
+        .service_area {
+            color: #878787;
+            .child_service {
+                width: 100%;
+                overflow: hidden;
+                margin-bottom: 15px;
+                .service_img {
+                    width: 25%;
+                    float: left;
+                }
+                .service_text {
+                    float: right;
+                    width: 75%;
+                    h3 {
+                        font-size: 14px;
+                        margin-top: 0;
+                        
+                    }
+                    p {
+                        margin-top: 0;
+                        line-height: 1.4em;
+                    }
+                }
+            }
+        }
+        .clint_area {
+            float: right;
+            .child_testimonial {
+                width: 100%;
+                margin-bottom: 15px;
+                overflow: hidden;
+                h3 {
+                    background-image: url("../img/coma.png");
+                    background-repeat: no-repeat;
+                    color: #989898;
+                    padding: 15px 0px 15px 65px;
+                }
+            }
+        }
+    }
+}

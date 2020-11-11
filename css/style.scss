@@ -1,2 +1,19 @@
+// BASIC SETUP
 @import "scss/basic-setup/basic-setup";
-@import "scss/header/header";
+
+// HEADER PART
+@import "scss/header/top-header";
+@import "scss/header/mid-header";
+@import "scss/header/last-header";
+
+//  BODY
+@import "scss/boby/body_section"; 
+
+//PORTFOLIO
+@import "scss/portfolio/portfolio_area";
+
+//FOOTER
+@import "scss/footer/footer";
+
+//COPYRIGHT AREA
+@import "scss/copy-right/copy-right-area";

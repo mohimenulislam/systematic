@@ -1,0 +1,55 @@
+.middle_header_area {
+    width: 100%;
+    .inner_middle_header {
+        overflow: hidden;
+        padding: 40px 0;
+        .logo_area {
+            float: left;
+            width: 240px;
+        }
+        .social_area {
+            padding-top: 15px;
+            float: right;
+            width: 100%;
+            max-width: 600px;
+            ul {
+                text-align: right;
+
+                li {
+                    display: inline-block;
+                    margin-left: 20px;
+
+                    a { 
+                        background-color: #333333;
+                        width: 32px;
+                        border-radius: 50%;
+                        display: block;
+                        color: #fff;
+                        height: 32px;
+                        text-align: center;
+                        padding-top: 4px;
+                        transition: 0.4s;
+                        &:hover {
+                            background-color: #ba2e1f;
+                        }
+                    }
+                    .linkedin:hover { 
+                        background-color: #0077B5;
+                    }
+                    .twitter:hover {
+                        background-color: #55acee;
+                    }
+                    .pinterest:hover { 
+                        background-color: #bd081c;
+                    }
+                    .google:hover { 
+                        background-color: #dd4b39;
+                    }
+                    .rss:hover { 
+                        background-color: #ee802f;
+                    }
+                }
+            }
+        }
+    }
+}
